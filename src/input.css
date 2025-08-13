@@ -1,0 +1,71 @@
+@import 'tailwindcss';
+:root {
+    --white: #ffffff;
+    --yellow: #f4d04e;
+    --gray-950: #111111;
+    --gray-500: #6b6b6b;
+}
+
+body {
+    font-family: 'Figtree', sans-serif;
+    background-color: var(--yellow);
+    font-size: 16px;
+}
+
+button {
+    display: block;
+    max-width: 89px;
+    background-color: var(--yellow);
+    border-radius: 4px;
+    border: none;
+    padding: 4px 12px;
+}
+
+.text-preset1 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    line-height: 150%;
+    letter-spacing: 0px;
+    color: var(--gray-950);
+}
+
+.text-preset2 {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0px;
+    color: var(--gray-500);
+}
+
+.text-preset3 {
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0px;
+    color: var(--gray-950);
+}
+
+.text-preset3-bold {
+    font-size: 0.875rem;
+    font-weight: 800;
+    line-height: 150%;
+    letter-spacing: 0px;
+    color: var(--gray-950);
+}
+
+.card {
+    border: 1px solid var(--gray950);
+    box-shadow: 8px 8px 0px 0px rgb(0 0 0 / 1);
+}
+
+.card:hover {
+    box-shadow: 20px 20px 0px 0px rgb(0 0 0 / 1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.content-title:hover,
+.content-title:active,
+.content-title:focus {
+    color: var(--yellow);
+    transition: color 0.3s ease-in-out;
+}
