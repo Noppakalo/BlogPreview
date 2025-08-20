@@ -26,8 +26,8 @@
 
 ### Links
 
--   Solution URL: [https://noppakalo.github.io/qrcode/](https://noppakalo.github.io/qrcode)
--   Live Site URL: [https://noppakalo.github.io/qrcode/](https://noppakalo.github.io/qrcode)
+-   Solution URL: [https://noppakalo.github.io/qrcode/](https://noppakalo.github.io/BlogPreview/)
+-   Live Site URL: [https://noppakalo.github.io/qrcode/](https://noppakalo.github.io/BlogPreview/)
 
 ## My process
 
@@ -35,8 +35,6 @@
 
 -   Semantic HTML5 markup
 -   CSS custom properties
--   [Vite](https://vite.dev/) - Build Tool
--   [Vue](https://vuejs.org/) - JavaScript Framework
 -   [Tailwind CSS](https://tailwindcss.com/) - Css Framework
 
 ### What I learned
